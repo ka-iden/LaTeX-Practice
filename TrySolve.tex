@@ -2,14 +2,15 @@
 \usepackage{amsmath}
 
 \begin{document}
-    \[\int_{0}^{\frac{5}{2}\cos\theta}\pi(y\tan\theta + 1.5)^2dy\] \\
-    \[= \pi\int_{0}^{\frac{5}{2}\cos\theta}(y\tan\theta + 1.5)^2dy\] \\
-    \[= \pi\int_{0}^{\frac{5}{2}\cos\theta}(y\tan\theta + 1.5)(y\tan\theta + 1.5)dy\] \\
-    \[= \pi[(y\tan\theta + 1.5)(\frac{\tan\theta}{2}y^2+1.5y)-(\tan\theta)(\frac{\tan\theta}{6}y^3+\frac{3}{4}y^2)]\Big|^\frac{5}{2}_0\] \\
-    \[= \pi[\frac{1}{2}y^3\tan^2\theta+\frac{3}{2}y^2\tan\theta+\frac{3}{4}y^2\tan\theta+\frac{9}{4}y-\frac{1}{6}y^3\tan^2\theta+\frac{3}{4}y^3\tan\theta]\Big|^\frac{5}{2}_0\] \\
-    \[= \pi[y^2\tan\theta(\frac{1}{2}y \tan\theta+\frac{3}{2}+\frac{3}{4}+\frac{9}{4}y-y^2\tan\theta(\frac{1}{6}y \tan\theta+\frac{3}{4}))]\Big|^\frac{5}{2}_0\] \\
-    \[= \pi[\frac{9}{4}y+y^2\tan\theta(\frac{1}{2}y\tan\theta+\frac{3}{2}+\frac{3}{2}-\frac{1}{6}y\tan\theta-\frac{3}{4})]\Big|^\frac{5}{2}_0\] \\
-    \[= \pi[\frac{9}{4}y+y^2\tan\theta(\frac{1}{3}y\tan\theta+\frac{3}{2})]\Big|^\frac{5}{2}_0\] \\
-    \[= \pi(\frac{9}{4}(\frac{5}{2})+\frac{25}{4}\tan\theta(\frac{1}{3}\cdot\frac{5}{2}\tan\theta+\frac{3}{2}))\] \\
-    \[= \pi(\frac{45}{8}+\frac{25}{4}\tan\theta(\frac{5}{6}\tan\theta+\frac{3}{2}))\] \\
+    \[\int_{0}^{\frac{5}{2}\cos\theta}\pi\left(y\tan\theta + 1.5\right)^2dy\] \\
+    \[= \pi\int_{0}^{\frac{5}{2}\cos\theta}\left(y\tan\theta + 1.5\right)^2dy\] \\
+    \[= \pi\int_{0}^{\frac{5}{2}\cos\theta}\left(y\tan\theta + 1.5\right)\left(y\tan\theta + 1.5\right)dy\] \\
+    \[= \pi\left[\left(y\tan\theta + 1.5\right)\left(\frac{\tan\theta}{2}y^2+1.5y\right)-\left(\tan\theta\right)\left(\frac{\tan\theta}{6}y^3+\frac{3}{4}y^2\right)\right]^{\frac{5}{2}\cos\theta}_0\] \\
+    \[= \pi\left[\frac{1}{2}y^3\tan^2\theta+\frac{3}{2}y^2\tan\theta+\frac{3}{4}y^2\tan\theta+\frac{9}{4}y-\frac{1}{6}y^3\tan^2\theta+\frac{3}{4}y^3\tan\theta\right]^{\frac{5}{2}\cos\theta}_0\] \\
+    \[= \pi\left[y^2\tan\theta\left(\frac{1}{2}y \tan\theta+\frac{3}{2}+\frac{3}{4}+\frac{9}{4}y-y^2\tan\theta\left(\frac{1}{6}y \tan\theta+\frac{3}{4}\right)\right)\right]^{\frac{5}{2}\cos\theta}_0\] \\
+    \[= \pi\left[\frac{9}{4}y+y^2\tan\theta\left(\frac{1}{2}y\tan\theta+\frac{3}{2}+\frac{3}{2}-\frac{1}{6}y\tan\theta-\frac{3}{4}\right)\right]^{\frac{5}{2}\cos\theta}_0\] \\
+    \[= \pi\left[\frac{9}{4}y+y^2\tan\theta\left(\frac{1}{3}y\tan\theta+\frac{3}{2}\right)\right]^{\frac{5}{2}\cos\theta}_0\] \\
+    \[= \pi\left(\frac{9}{4}\left(\frac{5}{2}\cos\theta\right)+\frac{25}{4}\cos^{2}\theta\tan\theta\left(\frac{1}{3}\cdot\frac{5}{2}\cos\theta\tan\theta+\frac{3}{2}\right)\right)\] \\
+    \[= \frac{5\pi}{8}\left(9\cos\theta+5\cos\theta\sin\theta\left(\frac{5}{3}\sin\theta+3\right)\right)\] \\
+    \[= \frac{5\pi}{8}\cos\theta\left(9+5\sin\theta\left(\frac{5}{3}\sin\theta+3\right)\right)\] \\
     \end{document}
